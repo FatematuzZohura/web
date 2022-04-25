@@ -1,0 +1,149 @@
+.abi {
+  background-color: rgb(20, 43, 71);
+}
+
+.img1 {
+  max-width: 100%;
+
+  height: auto;
+}
+#ab1:hover {
+  cursor: pointer;
+}
+.t1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 50px;
+  color: red;
+}
+
+
+
+
+
+
+
+
+.sub {
+  position: fixed;
+  margin: 1%;
+}
+
+.app {
+  height: 70px;
+  width: 70px;
+  position: fixed;
+  animation-name: anime;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  z-index: 1;
+}
+
+.app:hover {
+  height: 130px;
+  width: 130px;
+  animation-name: none;
+}
+
+@keyframes anime {
+  0% {
+    transform: scale(0.75);
+  }
+
+  50% {
+    transform: scale(1.25);
+  }
+}
+
+.main {
+  margin-top: 50px;
+}
+
+.container-fluid {
+  margin-left: 10px !important;
+}
+
+.whyrrv {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.img img {
+  margin: 20px 0px;
+}
+
+.advice {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.advice p{
+    font-size: 30px;
+}
+
+.details{
+    font-size: 20px;
+}
+
+#contact {
+  background-color: #142b47;
+  margin-top: 100px;
+  color: yellow;
+  font-size: 25px;
+}
+
+#contact .inner1,
+.inner3 {
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+.inner3 p{
+  margin:0;
+  padding: 2px;
+}
+
+.inner2 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.inner2 input[type="text"] {
+  width: 300px;
+}
+
+.address {
+  padding-left: 15px;
+}
+
+.develop {
+  float: right;
+}
+
+.content {
+  padding-top: 20px;
+}
+
+.gallery {
+  font-size: 50px;
+  color: blue;
+}
+.whyrrv h2 {
+  color: skyblue;
+  text-align: center;
+}
+.ambulance {
+  font-size: 30px;
+  font-weight: bolder;
+  color: orangered;
+  margin: 5%;
+  padding-left: 5%;
+}
+
+.ami{
+  background-color: aquamarine;
+}
